@@ -1,6 +1,6 @@
 import React from 'react';
 import Board from './TicTacToe/Board';
-import './App.css';
+import './TicTacToe/style.css';
 
 function App() {
   return (

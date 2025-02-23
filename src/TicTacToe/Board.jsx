@@ -3,7 +3,7 @@ import Square from './Square';
 
 const Board = () => {
 
-    const [state, setState] = useState(Array(9).fill(null));
+    const [state, setState] = useState(Array(9).fill(""));
     const [isXTurn, setIsXTurn] = useState(true);
 
     const checkWinnerLogic = () => {
